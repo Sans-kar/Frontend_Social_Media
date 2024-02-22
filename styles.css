@@ -22,9 +22,11 @@
     top: 0;
 }
 
-.card-img img{
+.card-img{
+    background-image: url("images/59515bfc8d2d4ff8928be097376153e9.jpeg");
     height:13.75rem;
-    object-fit: cover;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     overflow: hidden;
     
