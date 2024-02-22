@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    padding: 0;
+    
+}
+.Image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.6)),url("images/computer-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 20rem;
+    
+
+}
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.card-img img{
+    height:13.75rem;
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.profile-img{
+    width: 48px;
+    height: 48px;
+}
+
